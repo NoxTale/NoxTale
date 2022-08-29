@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button{
+        @apply h-5 w-5 cursor-pointer hover:scale-125 transition transform duration-100 ease-out;
+        
+    }
+    .bannerButton {
+        @apply flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold transition hover:opacity-75 md:py-2.5 md:px-8 md:text-xl;
+      }
+    .row_poster {
+        width: 100%;
+        object-fit: contain;
+        max-height: 50px;
+        margin-right: 7px;
+    }
+    .rows {
+        width: 230px;
+    }
+    .row_posters{
+        
+    }
+    .pbindex {
+        padding-bottom: 175px;
+    }
+}

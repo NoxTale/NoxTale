@@ -1,0 +1,4 @@
+ 6eba7108769243d8aec04f4ef830b04e
+ a89a40a48d7a4ccd9ab08745ab2746e3
+
+ sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex
